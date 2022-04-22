@@ -43,7 +43,7 @@ let textOnCanvas = (text, fontSize, canvas) => {
 
   // Just some text styling to make our text
   // look pretty
-  context.font = `${fontSize}px monospace`
+  context.font = `${fontSize}courier monospace`
   context.fillStyle = "black"
   context.textAlign = "center";
   context.textBaseline = "middle"
